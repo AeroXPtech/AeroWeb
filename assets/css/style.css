@@ -1,18 +1,19 @@
+/* Allgemeines */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../images/y2k-bg.jpg');
+    background-image: url('../images/longhorn-default-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    cursor: url('../cursors/y2k_select.cur'), auto;
+    cursor: url('../cursors/LinkSelect.cur'), auto;
 }
 
 header {
     text-align: center;
 }
 
-p {
+.subtitle {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 18px;
@@ -41,7 +42,7 @@ p {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-archivefaa {
+.archivefaa {
     display: block;
     text-align: center;
     font-size: 24px;
@@ -51,7 +52,7 @@ archivefaa {
 }
 
 * {
-    cursor: url('../cursors/y2k_select.cur'), auto !important;
+    cursor: url('../cursors/LinkSelect.cur'), auto !important;
 }
 
 .welcmsg {
@@ -72,9 +73,10 @@ archivefaa {
 }
 
 .theme-y2k body {
-    background-image: url('assets/images/y2k-bg.jpg');
+    background-image: url('assets/images/longhorn-default-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: contain;
 }
 
 .sidebar-left {
@@ -159,20 +161,46 @@ archivefaa {
     height: 5px;
 }
 
+/* Logo */
 .logo {
-    position: fixed;
-    top: 300px;
-    left: 150px;
-    z-index: 1002;
+    display: block;
+    margin-top: 150px; 
+    margin-left: 150px;
 }
 
+/* FAA Link */
 .faalink {
-    position: fixed;
-    top: 578px;
-    left: 150px;
-    z-index: 1003;
+    display: block;
+    margin-left: 150px;
+    margin-top: -25px;
     color: white;
     font-size: 14px;
-    padding: 5px;
     border-radius: 5px;
+    padding: 5px;
+}
+
+/* Haupttext */
+.mainstuff {
+    display: block;
+    margin-left: 700px; 
+    margin-top: -400px; /* Text neben Bild */
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+/* Sekundärer Text */
+.secarticle {
+    display: block;
+    margin-left: 700px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
 }
