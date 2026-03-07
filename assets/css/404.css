@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.notfoundsub {
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.notfoundtext {
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.linkhp, 
+.linkhp:visited, 
+.linkhp:hover, 
+.linkhp:active {
+    color: #ffffff; /* Reinweiß */
+    text-decoration: none; /* Optional: Entfernt die Unterstreichung */
+}
