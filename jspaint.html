@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Paint</title>
-    <link rel="stylesheet" href='assets/css/jspaint.css'>
     <link rel="stylesheet" href="https://unpkg.com/7.css">
+    <link rel="stylesheet" href='assets/css/jspaint.css'>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <link href="https://melonking.net/styles/flood.css" rel="stylesheet" type="text/css" media="all" />
 </head>
@@ -21,7 +21,21 @@
     </ul>
 </aside>
 
-    <iframe src="https://jspaint.app" class="jspaint" width="800px" height="600px"></iframe>
+<div class="window active jspaintWindow">
+  <div class="title-bar">
+    <div class="title-bar-text">JS Paint</div>
+
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+
+  <div class="window-body jspaintBody">
+    <iframe src="https://jspaint.app"></iframe>
+  </div>
+</div>
 
 <script src="https://melonking.net/scripts/flood.js"></script>
 </body>

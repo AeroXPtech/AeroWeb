@@ -250,3 +250,23 @@ header {
    border-radius: 10px;
    width: 500px;
 }
+
+.jspaintWindow{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width:900px;
+}
+
+.jspaintBody{
+  padding:0;
+  height:600px;
+}
+
+.jspaintBody iframe{
+  width:100%;
+  height:100%;
+  border:none;
+  display:block;
+}
